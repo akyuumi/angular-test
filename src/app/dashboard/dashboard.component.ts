@@ -11,7 +11,7 @@ export class DashboardComponent implements OnInit {
   message: string;
 
   constructor() {
-    this.message = 'This is a sample of Angular application.';
+    this.message = 'ダッシュボードにmessageを出力';
   }
 
   ngOnInit(): void {
