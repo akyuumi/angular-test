@@ -11,10 +11,10 @@ export class DashboardComponent implements OnInit {
   message: string;
 
   constructor() {
-    this.message = 'ダッシュボードにmessageを出力';
+    this.message = 'this is a sample.';
   }
 
   ngOnInit(): void {
-    // Initialization logic here
+    console.log('test');
   }
 }
