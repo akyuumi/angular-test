@@ -7,6 +7,9 @@
   </tr>
   <tr *ngFor="let user of users">
     <td>{{ user.id }}</td>
+    <td>
+      <a routerLink="/users/{{ user.id }}/edit">{{ user.name }}</a>
+    </td>
     <td>{{ user.name }}</td>
     <td>{{ user.email }}</td>
   </tr>
